@@ -133,7 +133,8 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}"),
+        InlineKeyboardButton("😎 ADMIN 😎", url=f"https://t.me/KISHANAHEER484")
     ])
     try:
         await query.edit_message_reply_markup(
